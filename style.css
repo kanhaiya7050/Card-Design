@@ -1,0 +1,75 @@
+body {
+    background-color: gray;
+    padding: 45px;
+    display: flex;
+}
+
+.card {
+    background-color: white;
+    width: 198px;
+    border-radius: 7px;
+    padding: 0 0 34px 0;
+    margin: 4px;
+}
+
+.image {
+    padding: 5px;
+
+}
+
+.image img {
+    border-radius: 7px;
+}
+
+.content p {
+    font-size: 15px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content {
+    padding: 7px 1px;
+    font-family: 'poppins' sans-serif;
+
+}
+
+.capsules {
+    padding: 0 28px;
+}
+
+.capsules span {
+    border: 1px solid gray;
+    padding: 0px 6px;
+    border-radius: 9px;
+    font-size: 10px;
+    font-family: 'Baloo bhai 2';
+    font-family: 'poppins', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.button {
+    text-align: center;
+
+}
+
+.button button {
+    padding: 7px 9px;
+    border-radius: 16px;
+    background-color: rgb(170, 206, 237);
+    color: blue;
+    font-size: 10px;
+    margin-top: 7px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: rgb(173, 14, 187);
+    color:rgb(10,136,214);
+}
